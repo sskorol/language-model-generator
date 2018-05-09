@@ -18,7 +18,7 @@ Run a container mapping the above folder, and passing a file with corresponding 
 ```sh
 docker run -v ~/data:/data sskorol:sphinx-lm-generator /data/commands.txt
 ```
-Check **data** folder. There should be 2 new files generated: **commands.lm** and **commands.lm.bin** files.
+Check **data** folder. There should be 2 new files generated: **commands.lm** and **commands.lm.bin**.
 
 You can now use **commands.lm.bin** in your Sphinx4 code:
 ```java
